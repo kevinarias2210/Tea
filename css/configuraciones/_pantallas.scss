@@ -400,21 +400,29 @@
                     padding: 20px;
                     background-color: #ebebeb;
                     .footer__container--pagos{
-                        width: 62%;
+                        width: 100%;
                         display: flex;
                         justify-content: center;
                         align-items: center;
                         flex-direction: column;
                         .footer__container--reconocimientos{
+                            width: 74%;
                             display: flex;
                             align-items: center;
                             justify-content: center;
+                            margin-bottom: 15px;
                             img{
                                 width: 5%;
                                 margin-right: 5px;
                             }
-                            p{
-                                width: 55%;
+                            .footer__container--dos{
+                                width: 14%;
+                            }
+                            .footer__container--sabu{
+
+                            }
+                            .footer__container--by{
+
                             }
                         }
                     }

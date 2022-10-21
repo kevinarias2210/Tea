@@ -599,7 +599,15 @@
   width: 5%;
   margin-right: 5px;
 }
-.footer .footer__container .footer__container--items .footer__container--pagos .footer__container--reconocimientos p {
+.footer .footer__container .footer__container--items .footer__container--pagos .footer__container--reconocimientos .footer__container--dos {
+  margin-right: 5px;
+  font-family: "Lora", serif;
+}
+.footer .footer__container .footer__container--items .footer__container--pagos .footer__container--reconocimientos .footer__container--sabu {
+  margin-right: 5px;
+  font-family: "Lora", serif;
+}
+.footer .footer__container .footer__container--items .footer__container--pagos .footer__container--reconocimientos .footer__container--by {
   margin-right: 5px;
   font-family: "Lora", serif;
 }
@@ -1062,7 +1070,7 @@
     background-color: #ebebeb;
   }
   .footer .footer__container .footer__container--items .footer__container--pagos {
-    width: 62%;
+    width: 100%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1078,6 +1086,7 @@
             flex-direction: column;
   }
   .footer .footer__container .footer__container--items .footer__container--pagos .footer__container--reconocimientos {
+    width: 74%;
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1087,12 +1096,13 @@
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    margin-bottom: 15px;
   }
   .footer .footer__container .footer__container--items .footer__container--pagos .footer__container--reconocimientos img {
     width: 5%;
     margin-right: 5px;
   }
-  .footer .footer__container .footer__container--items .footer__container--pagos .footer__container--reconocimientos p {
-    width: 55%;
+  .footer .footer__container .footer__container--items .footer__container--pagos .footer__container--reconocimientos .footer__container--dos {
+    width: 14%;
   }
 }

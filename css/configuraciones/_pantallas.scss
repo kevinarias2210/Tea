@@ -1,0 +1,425 @@
+@mixin small{
+    @media only screen and (max-width: 653px){
+        .header{
+            .header__container{
+                grid-template-columns: repeat(2, 1fr);
+                margin: 20px 20px 50px 20px;
+                .header__container--menu{
+                    display: none;
+                    .header__container--ul{
+                        width: 100%;
+                        display: flex;
+                        justify-content: space-between;
+                        list-style: none;
+                        .header__container--li{
+                            .header__container--a{
+                                font-family: $fuente-productos;
+                                text-decoration: none;
+                                list-style: none;
+                                color: $color-negro;
+                            }
+                        }
+                    }
+                }
+                .header__container--img{
+                    justify-content: flex-start;
+                    margin-left: 20px;
+                    img{
+                        width: 77%;
+                    }
+                }
+                .header__container--menuH{
+                    display: flex;
+                    justify-content: flex-end;
+                    align-items: flex-end;
+                    grid-column: 2;
+                    grid-row: 1;
+                    .header__container--imgM{
+                        width: 17%;
+                        height: 80%;
+                    }
+                }
+                .header__container--dolar{
+                    display: flex;
+                    grid-column: 2;
+                    grid-row: 1;
+                    justify-content: center;
+                    margin-top: 20px;
+                    .header__container--items{
+                        p{
+                            font-family: $fuente-productos;
+                            font-size: 25px;
+                        }
+                        .header__container--flechita{
+                            height: 28%;
+                        }
+                        .header__container--carrito{
+                            .header__container--car{
+                                width: 33%;
+                                margin-left: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .main{
+            height: 180vh;
+            .main__container1{
+                margin: 0 20px;
+                .main__container--imagen{
+                    height: 80vh;
+                    margin: 0;
+                    .main__container--img{
+                        height: 80vh;
+                        object-fit: cover;
+                    }
+                }
+                .main__container--texto{
+                    width: 71%;
+                    top: 108px;
+                    left: 15%;
+                    .main__container--h1{
+                    }
+                    .main__container--a{
+                        font-size: 25px;
+                    }
+                }
+            }
+            .main__container2{
+                grid-template-columns: 1fr;
+                .main__container2--items1{
+                    justify-content: center;
+                    .main__container2--pes1{
+                        width: 35%;
+                        right: 54%;
+                        .main__container2--p1{
+                            margin-bottom: 5px;
+                            font-size: 50px;
+                            color: $color-venta;
+                        }
+                        .main__container2--p2{
+                            margin-left: 42px;
+                            font-family: $fuente-productos;
+                            text-align: initial;
+                            color: $color-venta-p;
+                        }
+                    }
+                }
+                .main__container2--items2{
+                    justify-content: center;
+                    @extend .main__container2--items1;
+                    .main__container2--pes2{
+                        right: 54%;
+                        @extend .main__container2--pes1;
+                    }
+                }
+            }
+        }
+        .section{
+            .section__container{
+                margin: 0 20px;
+                .section__container--text{
+                    height: 24vh;
+                    display: flex;
+                    align-items: center;
+                    flex-direction: column;
+                    text-align: center;
+                    h2{
+                        margin-bottom: 15px;
+                        font-family: $fuente-texto;
+                        font-size: 40px;
+                    }
+                    p{
+                        width: 84%;
+                        font-size: 19px;
+                        font-family: $fuente-texto;
+                        line-height: 32px;
+                    }
+                }
+                .section__container--grid{
+                    width: 100%;
+                    flex-direction: column;
+                    .section__container--polvo1{
+                        width: 100%;
+                        margin-left: 35px;
+                        margin-right: 35px;
+                        .section__container--porcentage{
+                            width: 75px;
+                            height: 75px;
+                            display: flex;
+                            justify-content: center;
+                            align-items: center;
+                            position: absolute;
+                            margin: 15px;
+                            border-radius: 50%;
+                            background-color: $color-venta;
+                            .section__container--valor{
+                                font-family: $fuente-texto;
+                                font-size: 20px;
+                                color: white;
+                            }
+                        }
+                        .section__container--dust1{
+                            width: 86%;
+                        }
+                        .section__container--subtitle{
+                            margin-top: 30px;
+                            font-size: 25px;
+                        }
+                        .section__container--sale{
+                            display: flex;
+                            margin-top: 10px;
+                            margin-bottom: 30px;
+                            .section__container--dolar{
+                                font-size: 20px;
+                            }
+                            .section__container--descuento{
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .section2{
+            width: 100%;
+            margin: 50px 0;
+            .section2__container{
+                width: 100%;
+                margin: 0 20px;
+                .section2__container--img{
+                    width: 100%;
+                    display: flex;
+                    justify-content: center;
+                    margin-bottom: 20px;
+                    .section2__container--mata{
+                        width: 20%;
+                    }
+                }
+                .section2__container--parrafo{
+                    width: 74%;
+                    font-size: 30px;
+                    .section2__container--p{
+                        font-family: $fuente-texto;
+                        color: $color-venta-p;
+                    }
+                }
+                .section2__container--autor{
+                    margin-bottom: 5px;
+                    .section2__container--name{
+                        font-family: $fuente-productos;
+                        font-size: 20px;
+                    }
+                }
+                .section2__container--customer{
+                    .section2__container--marca{
+                        font-family: $fuente-productos;
+                        font-size: 15px;
+                    }
+                }
+            }
+        }
+        .section3{
+            @extend .section;
+            .section3__container{
+                margin: 0 20px;
+                @extend .section__container;
+                .section3__container--text{
+                    @extend .section__container--text;
+                }
+                .section3__container--grid{
+                    display: grid;
+                    grid-template-columns: 1fr;
+                    row-gap: 40px;
+                    @extend .section__container--grid;
+                    .section3__container--polvo1{
+                        @extend .section__container--polvo1;
+                        .section3__container--porcentage{
+                            @extend .section__container--porcentage;
+                            .section3__container--valor{
+                                @extend .section__container--valor;
+                            }
+                        }
+                        .section3__container--dust1{
+                            width: 87%;
+                        }
+                        .section3__container--subtitle{
+                            @extend .section__container--subtitle;
+                        }
+                        .section3__container--sale{
+                            @extend .section__container--sale;
+                            .section3__container--dolar{
+                                @extend .section__container--dolar;
+                            }
+                            .section3__container--descuento{
+                                @extend .section__container--descuento;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        .section4{
+            .section4__container{
+                margin: 0 20px;
+                .section4__container--title{
+                    .section4__container--h{
+                        font-size: 38px;
+                    }
+                }
+                .section4__container--input{
+                    width: 76%;
+                    input{
+                        padding: 32px;
+                    }
+                    button{
+                        padding: 30px;
+                    }
+                    ::placeholder{
+                        font-size: 20px;
+                        font-family: $fuente-productos;
+                    }
+                }
+            }
+        }
+        .section5{
+            .section5__container{
+                margin: 0 20px;
+                .section5__container--items{
+                    display: grid;
+                    justify-content: center;
+                    align-items: center;
+                    grid-template-columns: 347px;
+                    grid-template-rows: 2fr;
+                    column-gap: 25px;
+                    row-gap: 40px;
+                    padding: 100px;
+                    background-image: url(../Imagenes/bg-1.jpg);
+                    .section5__container--title{
+                        grid-column: 1;
+                        .section5__container--h2{
+                            font-size: 35px;
+                        }
+                    }
+                    .section5__container--mini-items{
+                        display: flex;
+                        justify-content: center;
+                        flex-direction: column;
+                        grid-column: 1;
+                        .section5__container--img{
+                            margin-bottom: 20px;
+                            .section5__container--imagen{
+                                object-fit: contain;
+                            }
+                        }
+                        .section5__container--p{
+                            margin-bottom: 20px;
+                            .section5__container--fecha{
+                                font-size: 20px;
+                            }
+                        }
+                        .section5__container--subtitle{
+                            margin-bottom: 20px;
+                            h3{
+                                font-family: $fuente-titulo;
+                                font-size: 25px;
+                            }
+                        }
+                        .section5__container--texto{
+                            .section5__container--parrafo{
+                                font-size: 20px;
+                            }
+                        }
+                        .section5__container--a{
+                            .section5__container--enlace{
+                                font-size: 20px;
+                            }
+                        }
+                    }
+                    .section5__container--mini-items2{
+                        grid-column: 1;
+                        @extend .section5__container--mini-items;
+                    }
+                    .section5__container--mini-items3{
+                        grid-column: 1;
+                        @extend .section5__container--mini-items;
+                    }
+                }
+            }
+        }
+        .footer{
+            .footer__container{
+                .footer__container--logos{
+                    flex-direction: column;
+                    img{
+                        margin-bottom: 50px;
+                    }
+                }
+                .footer__container--list{
+                    grid-template-columns: 275px;
+                    justify-content: center;
+                    .footer__container--account{
+                        display: flex;
+                        align-items: flex-start;
+                        justify-content: center;
+                        flex-direction: column;
+                        h2{
+                            margin-bottom: 15px;
+                            font-family: $fuente-titulo;
+                            font-size: 18px;
+                        }
+                        a{
+                            margin-bottom: 10px;
+                            font-family: $fuente-titulo;
+                            font-size: 14px;
+                            color: $color-venta-p;
+                            text-decoration: none;
+                        }
+                    }
+                    .footer__container--information{
+                        @extend .footer__container--account;
+                    }
+                    .footer__container--quick{
+                        @extend .footer__container--account;
+                    }
+                    .footer__container--contact{
+                        .footer__container--diferente{
+                            display: flex;
+                            justify-content: center;
+                            flex-direction: column;
+                            margin: 10px 0;
+                        }
+                        @extend .footer__container--account;
+                    }
+                }
+                .footer__container--items{
+                    display: flex;
+                    justify-content: center;
+                    margin: 0 20px;
+                    padding: 20px;
+                    background-color: #ebebeb;
+                    .footer__container--pagos{
+                        width: 62%;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        flex-direction: column;
+                        .footer__container--reconocimientos{
+                            display: flex;
+                            align-items: center;
+                            justify-content: center;
+                            img{
+                                width: 5%;
+                                margin-right: 5px;
+                            }
+                            p{
+                                width: 55%;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

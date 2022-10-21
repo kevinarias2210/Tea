@@ -1,0 +1,1098 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: content-box;
+          box-sizing: content-box;
+}
+
+.header {
+  width: 100%;
+}
+.header .header__container {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+  grid-template-columns: repeat(3, 1fr);
+  margin: 20px 40px;
+}
+.header .header__container .header__container--menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .header__container .header__container--menu .header__container--ul {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+.header .header__container .header__container--menu .header__container--ul .header__container--li .header__container--a {
+  font-family: "Work Sans", sans-serif;
+  text-decoration: none;
+  list-style: none;
+  color: #333333;
+}
+.header .header__container .header__container--img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.header .header__container .header__container--menuH {
+  display: none;
+}
+.header .header__container .header__container--menuH .header__container--imgM {
+  width: 6%;
+}
+.header .header__container .header__container--dolar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+.header .header__container .header__container--dolar .header__container--items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.header .header__container .header__container--dolar .header__container--items p {
+  font-family: "Work Sans", sans-serif;
+}
+.header .header__container .header__container--dolar .header__container--items .header__container--flechita {
+  width: 10%;
+  height: 40%;
+  margin-top: 3px;
+  margin-left: 10px;
+}
+.header .header__container .header__container--dolar .header__container--items .header__container--carrito .header__container--car {
+  width: 22%;
+  margin-left: 20px;
+}
+
+.main {
+  width: 100%;
+}
+.main .main__container1 .main__container--imagen {
+  margin: 0 40px;
+}
+.main .main__container1 .main__container--imagen .main__container--img {
+  width: 100%;
+}
+.main .main__container1 .main__container--texto {
+  width: 24%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  top: 50px;
+  right: 0;
+  left: 38%;
+  bottom: 0;
+}
+.main .main__container1 .main__container--texto .main__container--h1 {
+  margin-bottom: 20px;
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  text-align: center;
+}
+.main .main__container1 .main__container--texto .main__container--a {
+  font-family: "Work Sans", sans-serif;
+  text-decoration: underline;
+}
+.main .main__container2 {
+  height: 45vh;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 30px 1fr;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.main .main__container2 .main__container2--items1, .main .main__container2 .main__container2--items2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.main .main__container2 .main__container2--items1 .main__container2--pes1, .main .main__container2 .main__container2--items2 .main__container2--pes1, .main .main__container2 .main__container2--items2 .main__container2--pes2 {
+  width: 15%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  right: 66%;
+  text-align: center;
+}
+.main .main__container2 .main__container2--items1 .main__container2--pes1 .main__container2--p1, .main .main__container2 .main__container2--items2 .main__container2--pes1 .main__container2--p1, .main .main__container2 .main__container2--items2 .main__container2--pes2 .main__container2--p1 {
+  margin-bottom: 5px;
+  font-size: 50px;
+  color: #529F0F;
+}
+.main .main__container2 .main__container2--items1 .main__container2--pes1 .main__container2--p2, .main .main__container2 .main__container2--items2 .main__container2--pes1 .main__container2--p2, .main .main__container2 .main__container2--items2 .main__container2--pes2 .main__container2--p2 {
+  margin-left: 42px;
+  font-family: "Work Sans", sans-serif;
+  text-align: initial;
+  color: #575757;
+}
+.main .main__container2 .main__container2--items2 {
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+.main .main__container2 .main__container2--items2 .main__container2--pes2 {
+  right: 35%;
+}
+
+.section, .section3 {
+  width: 100%;
+}
+.section .section__container, .section3 .section__container, .section3 .section3__container {
+  padding: 50px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 40px;
+  background-image: url(../Imagenes/bg-1.jpg);
+}
+.section .section__container .section__container--text, .section3 .section__container .section__container--text, .section3 .section3__container .section__container--text, .section3 .section3__container .section3__container--text {
+  height: 15vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  text-align: center;
+}
+.section .section__container .section__container--text h2, .section3 .section__container .section__container--text h2, .section3 .section3__container .section__container--text h2, .section3 .section3__container .section3__container--text h2 {
+  margin-bottom: 15px;
+  font-family: "Lora", serif;
+  font-size: 30px;
+}
+.section .section__container .section__container--text p, .section3 .section__container .section__container--text p, .section3 .section3__container .section__container--text p, .section3 .section3__container .section3__container--text p {
+  width: 75%;
+  font-family: "Lora", serif;
+}
+.section .section__container .section__container--grid, .section3 .section__container .section__container--grid, .section3 .section3__container .section__container--grid, .section3 .section3__container .section3__container--grid {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.section .section__container .section__container--grid .section__container--polvo1, .section3 .section__container .section__container--grid .section__container--polvo1, .section3 .section3__container .section__container--grid .section__container--polvo1, .section3 .section3__container .section3__container--grid .section__container--polvo1, .section3 .section3__container .section3__container--grid .section3__container--polvo1 {
+  margin-right: 35px;
+}
+.section .section__container .section__container--grid .section__container--polvo1 .section__container--porcentage, .section3 .section__container .section__container--grid .section__container--polvo1 .section__container--porcentage, .section3 .section3__container .section__container--grid .section__container--polvo1 .section__container--porcentage, .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--porcentage, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--porcentage, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage {
+  width: 40px;
+  height: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: absolute;
+  margin: 15px;
+  border-radius: 50%;
+  background-color: #529F0F;
+}
+.section .section__container .section__container--grid .section__container--polvo1 .section__container--porcentage .section__container--valor, .section3 .section__container .section__container--grid .section__container--polvo1 .section__container--porcentage .section__container--valor, .section3 .section3__container .section__container--grid .section__container--polvo1 .section__container--porcentage .section__container--valor, .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--porcentage .section__container--valor, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--porcentage .section__container--valor, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor {
+  font-family: "Lora", serif;
+  font-size: 12px;
+  color: white;
+}
+.section .section__container .section__container--grid .section__container--polvo1 .section__container--subtitle, .section3 .section__container .section__container--grid .section__container--polvo1 .section__container--subtitle, .section3 .section3__container .section__container--grid .section__container--polvo1 .section__container--subtitle, .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--subtitle, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--subtitle, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--subtitle {
+  margin-top: 10px;
+  font-family: "Work Sans", sans-serif;
+  color: #575757;
+}
+.section .section__container .section__container--grid .section__container--polvo1 .section__container--sale, .section3 .section__container .section__container--grid .section__container--polvo1 .section__container--sale, .section3 .section3__container .section__container--grid .section__container--polvo1 .section__container--sale, .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--sale, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+.section .section__container .section__container--grid .section__container--polvo1 .section__container--sale .section__container--dolar, .section3 .section__container .section__container--grid .section__container--polvo1 .section__container--sale .section__container--dolar, .section3 .section3__container .section__container--grid .section__container--polvo1 .section__container--sale .section__container--dolar, .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--sale .section__container--dolar, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--dolar, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar {
+  margin-right: 10px;
+  font-family: "Work Sans", sans-serif;
+}
+.section .section__container .section__container--grid .section__container--polvo1 .section__container--sale .section__container--descuento, .section3 .section__container .section__container--grid .section__container--polvo1 .section__container--sale .section__container--descuento, .section3 .section3__container .section__container--grid .section__container--polvo1 .section__container--sale .section__container--descuento, .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--sale .section__container--descuento, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--descuento, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento {
+  text-decoration: line-through;
+  color: #575757;
+}
+
+.section2 {
+  width: 100%;
+  margin: 50px 0;
+}
+.section2 .section2__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.section2 .section2__container .section2__container--img {
+  margin-bottom: 20px;
+}
+.section2 .section2__container .section2__container--parrafo {
+  width: 25%;
+  margin-bottom: 30px;
+  text-align: center;
+}
+.section2 .section2__container .section2__container--parrafo .section2__container--p {
+  font-family: "Lora", serif;
+  color: #575757;
+}
+.section2 .section2__container .section2__container--autor {
+  margin-bottom: 5px;
+}
+.section2 .section2__container .section2__container--autor .section2__container--name {
+  font-family: "Work Sans", sans-serif;
+  font-size: 10px;
+}
+.section2 .section2__container .section2__container--customer .section2__container--marca {
+  font-family: "Work Sans", sans-serif;
+  font-size: 9px;
+}
+
+.section3 .section3__container .section3__container--grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+  grid-template-columns: 1fr;
+  row-gap: 40px;
+}
+.section4 {
+  width: 100%;
+  height: 45vh;
+}
+.section4 .section4__container {
+  height: 45vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0 40px;
+  background-image: url(../Imagenes/bg-2.jpg);
+  background-size: cover;
+}
+.section4 .section4__container .section4__container--title {
+  margin-bottom: 30px;
+}
+.section4 .section4__container .section4__container--title .section4__container--h {
+  font-family: "Playfair Display", serif;
+  font-size: 30px;
+}
+.section4 .section4__container .section4__container--input {
+  width: 24%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.section4 .section4__container .section4__container--input input {
+  width: 100%;
+  padding: 20px;
+  border: 1px solid #bdbdbd;
+  outline: none;
+}
+.section4 .section4__container .section4__container--input button {
+  width: 40%;
+  padding: 19px;
+  background-color: black;
+  color: white;
+}
+.section4 .section4__container .section4__container--input ::-webkit-input-placeholder {
+  font-family: "Work Sans", sans-serif;
+}
+.section4 .section4__container .section4__container--input ::-moz-placeholder {
+  font-family: "Work Sans", sans-serif;
+}
+.section4 .section4__container .section4__container--input :-ms-input-placeholder {
+  font-family: "Work Sans", sans-serif;
+}
+.section4 .section4__container .section4__container--input ::-ms-input-placeholder {
+  font-family: "Work Sans", sans-serif;
+}
+.section4 .section4__container .section4__container--input ::placeholder {
+  font-family: "Work Sans", sans-serif;
+}
+
+.section5 {
+  width: 100%;
+}
+.section5 .section5__container {
+  margin: 0 40px;
+}
+.section5 .section5__container .section5__container--items {
+  display: -ms-grid;
+  display: grid;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-grid-columns: 347px 25px 347px 25px 347px;
+  grid-template-columns: repeat(3, 347px);
+  -ms-grid-rows: 2fr;
+  grid-template-rows: 2fr;
+  -webkit-column-gap: 25px;
+     -moz-column-gap: 25px;
+          column-gap: 25px;
+  row-gap: 40px;
+  padding: 100px;
+  background-image: url(../Imagenes/bg-1.jpg);
+}
+.section5 .section5__container .section5__container--items > *:nth-child(1) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 1;
+}
+.section5 .section5__container .section5__container--items > *:nth-child(2) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 3;
+}
+.section5 .section5__container .section5__container--items > *:nth-child(3) {
+  -ms-grid-row: 1;
+  -ms-grid-column: 5;
+}
+.section5 .section5__container .section5__container--items .section5__container--title {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  text-align: center;
+  text-decoration: underline;
+}
+.section5 .section5__container .section5__container--items .section5__container--title .section5__container--h2 {
+  font-family: "Lora", serif;
+  font-size: 30px;
+}
+.section5 .section5__container .section5__container--items .section5__container--mini-items, .section5 .section5__container .section5__container--items .section5__container--mini-items3, .section5 .section5__container .section5__container--items .section5__container--mini-items2 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-grid-column: 1;
+  grid-column: 1;
+  grid-auto-rows: 2;
+}
+.section5 .section5__container .section5__container--items .section5__container--mini-items .section5__container--img, .section5 .section5__container .section5__container--items .section5__container--mini-items3 .section5__container--img, .section5 .section5__container .section5__container--items .section5__container--mini-items2 .section5__container--img {
+  margin-bottom: 20px;
+}
+.section5 .section5__container .section5__container--items .section5__container--mini-items .section5__container--img .section5__container--imagen, .section5 .section5__container .section5__container--items .section5__container--mini-items3 .section5__container--img .section5__container--imagen, .section5 .section5__container .section5__container--items .section5__container--mini-items2 .section5__container--img .section5__container--imagen {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+.section5 .section5__container .section5__container--items .section5__container--mini-items .section5__container--p, .section5 .section5__container .section5__container--items .section5__container--mini-items3 .section5__container--p, .section5 .section5__container .section5__container--items .section5__container--mini-items2 .section5__container--p {
+  margin-bottom: 20px;
+}
+.section5 .section5__container .section5__container--items .section5__container--mini-items .section5__container--p .section5__container--fecha, .section5 .section5__container .section5__container--items .section5__container--mini-items3 .section5__container--p .section5__container--fecha, .section5 .section5__container .section5__container--items .section5__container--mini-items2 .section5__container--p .section5__container--fecha {
+  font-family: "Work Sans", sans-serif;
+  font-size: 12px;
+  text-decoration: underline;
+  color: #529F0F;
+}
+.section5 .section5__container .section5__container--items .section5__container--mini-items .section5__container--subtitle, .section5 .section5__container .section5__container--items .section5__container--mini-items3 .section5__container--subtitle, .section5 .section5__container .section5__container--items .section5__container--mini-items2 .section5__container--subtitle {
+  margin-bottom: 20px;
+}
+.section5 .section5__container .section5__container--items .section5__container--mini-items .section5__container--subtitle h3, .section5 .section5__container .section5__container--items .section5__container--mini-items3 .section5__container--subtitle h3, .section5 .section5__container .section5__container--items .section5__container--mini-items2 .section5__container--subtitle h3 {
+  font-family: "Playfair Display", serif;
+}
+.section5 .section5__container .section5__container--items .section5__container--mini-items .section5__container--texto, .section5 .section5__container .section5__container--items .section5__container--mini-items3 .section5__container--texto, .section5 .section5__container .section5__container--items .section5__container--mini-items2 .section5__container--texto {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.section5 .section5__container .section5__container--items .section5__container--mini-items .section5__container--texto .section5__container--parrafo, .section5 .section5__container .section5__container--items .section5__container--mini-items3 .section5__container--texto .section5__container--parrafo, .section5 .section5__container .section5__container--items .section5__container--mini-items2 .section5__container--texto .section5__container--parrafo {
+  font-family: "Lora", serif;
+  color: #333333;
+}
+.section5 .section5__container .section5__container--items .section5__container--mini-items .section5__container--a .section5__container--enlace, .section5 .section5__container .section5__container--items .section5__container--mini-items3 .section5__container--a .section5__container--enlace, .section5 .section5__container .section5__container--items .section5__container--mini-items2 .section5__container--a .section5__container--enlace {
+  font-family: "Work Sans", sans-serif;
+  font-size: 12px;
+  color: #333333;
+}
+.section5 .section5__container .section5__container--items .section5__container--mini-items2 {
+  -ms-grid-column: 2;
+  grid-column: 2;
+  grid-auto-rows: 2;
+}
+.section5 .section5__container .section5__container--items .section5__container--mini-items3 {
+  -ms-grid-column: 3;
+  grid-column: 3;
+  grid-auto-rows: 2;
+}
+
+.footer {
+  width: 100%;
+}
+.footer .footer__container .footer__container--logos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 50px;
+}
+.footer .footer__container .footer__container--logos img {
+  margin-right: 50px;
+}
+.footer .footer__container .footer__container--list {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (275px)[4];
+  grid-template-columns: repeat(4, 275px);
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  padding: 50px;
+  background-color: #f8f8f8;
+}
+.footer .footer__container .footer__container--list .footer__container--account, .footer .footer__container .footer__container--list .footer__container--contact, .footer .footer__container .footer__container--list .footer__container--quick, .footer .footer__container .footer__container--list .footer__container--information {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.footer .footer__container .footer__container--list .footer__container--account h2, .footer .footer__container .footer__container--list .footer__container--contact h2, .footer .footer__container .footer__container--list .footer__container--quick h2, .footer .footer__container .footer__container--list .footer__container--information h2 {
+  margin-bottom: 15px;
+  font-family: "Playfair Display", serif;
+  font-size: 18px;
+}
+.footer .footer__container .footer__container--list .footer__container--account a, .footer .footer__container .footer__container--list .footer__container--contact a, .footer .footer__container .footer__container--list .footer__container--quick a, .footer .footer__container .footer__container--list .footer__container--information a {
+  margin-bottom: 10px;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+  color: #575757;
+  text-decoration: none;
+}
+.footer .footer__container .footer__container--list .footer__container--contact .footer__container--diferente {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 10px 0;
+}
+.footer .footer__container .footer__container--items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 40px;
+  padding: 20px;
+  background-color: #ebebeb;
+}
+.footer .footer__container .footer__container--items .footer__container--pagos {
+  width: 62%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.footer .footer__container .footer__container--items .footer__container--pagos .footer__container--reconocimientos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+.footer .footer__container .footer__container--items .footer__container--pagos .footer__container--reconocimientos img {
+  width: 5%;
+  margin-right: 5px;
+}
+.footer .footer__container .footer__container--items .footer__container--pagos .footer__container--reconocimientos p {
+  margin-right: 5px;
+  font-family: "Lora", serif;
+}
+
+@media only screen and (max-width: 653px) {
+  .header .header__container {
+    -ms-grid-columns: (1fr)[2];
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px 20px 50px 20px;
+  }
+  .header .header__container .header__container--menu {
+    display: none;
+  }
+  .header .header__container .header__container--menu .header__container--ul {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    list-style: none;
+  }
+  .header .header__container .header__container--menu .header__container--ul .header__container--li .header__container--a {
+    font-family: "Work Sans", sans-serif;
+    text-decoration: none;
+    list-style: none;
+    color: #333333;
+  }
+  .header .header__container .header__container--img {
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    margin-left: 20px;
+  }
+  .header .header__container .header__container--img img {
+    width: 77%;
+  }
+  .header .header__container .header__container--menuH {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-row: 1;
+    grid-row: 1;
+  }
+  .header .header__container .header__container--menuH .header__container--imgM {
+    width: 17%;
+    height: 80%;
+  }
+  .header .header__container .header__container--dolar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-grid-column: 2;
+    grid-column: 2;
+    -ms-grid-row: 1;
+    grid-row: 1;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 20px;
+  }
+  .header .header__container .header__container--dolar .header__container--items p {
+    font-family: "Work Sans", sans-serif;
+    font-size: 25px;
+  }
+  .header .header__container .header__container--dolar .header__container--items .header__container--flechita {
+    height: 28%;
+  }
+  .header .header__container .header__container--dolar .header__container--items .header__container--carrito .header__container--car {
+    width: 33%;
+    margin-left: 20px;
+  }
+
+  .main {
+    height: 180vh;
+  }
+  .main .main__container1 {
+    margin: 0 20px;
+  }
+  .main .main__container1 .main__container--imagen {
+    height: 80vh;
+    margin: 0;
+  }
+  .main .main__container1 .main__container--imagen .main__container--img {
+    height: 80vh;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .main .main__container1 .main__container--texto {
+    width: 71%;
+    top: 108px;
+    left: 15%;
+  }
+  .main .main__container1 .main__container--texto .main__container--a {
+    font-size: 25px;
+  }
+  .main .main__container2 {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  }
+  .main .main__container2 .main__container2--items1, .main .main__container2 .main__container2--items2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main .main__container2 .main__container2--items1 .main__container2--pes1, .main .main__container2 .main__container2--items2 .main__container2--pes1, .main .main__container2 .main__container2--items2 .main__container2--pes2 {
+    width: 35%;
+    right: 54%;
+  }
+  .main .main__container2 .main__container2--items1 .main__container2--pes1 .main__container2--p1, .main .main__container2 .main__container2--items2 .main__container2--pes1 .main__container2--p1, .main .main__container2 .main__container2--items2 .main__container2--pes2 .main__container2--p1 {
+    margin-bottom: 5px;
+    font-size: 50px;
+    color: #529F0F;
+  }
+  .main .main__container2 .main__container2--items1 .main__container2--pes1 .main__container2--p2, .main .main__container2 .main__container2--items2 .main__container2--pes1 .main__container2--p2, .main .main__container2 .main__container2--items2 .main__container2--pes2 .main__container2--p2 {
+    margin-left: 42px;
+    font-family: "Work Sans", sans-serif;
+    text-align: initial;
+    color: #575757;
+  }
+  .main .main__container2 .main__container2--items2 {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .main .main__container2 .main__container2--items2 .main__container2--pes2 {
+    right: 54%;
+  }
+
+  .section .section__container, .section3 .section__container, .section3 .section3__container {
+    margin: 0 20px;
+  }
+  .section .section__container .section__container--text, .section3 .section__container .section__container--text, .section3 .section3__container .section__container--text, .section3 .section3__container .section3__container--text {
+    height: 24vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    text-align: center;
+  }
+  .section .section__container .section__container--text h2, .section3 .section__container .section__container--text h2, .section3 .section3__container .section__container--text h2, .section3 .section3__container .section3__container--text h2 {
+    margin-bottom: 15px;
+    font-family: "Lora", serif;
+    font-size: 40px;
+  }
+  .section .section__container .section__container--text p, .section3 .section__container .section__container--text p, .section3 .section3__container .section__container--text p, .section3 .section3__container .section3__container--text p {
+    width: 84%;
+    font-size: 19px;
+    font-family: "Lora", serif;
+    line-height: 32px;
+  }
+  .section .section__container .section__container--grid, .section3 .section__container .section__container--grid, .section3 .section3__container .section__container--grid, .section3 .section3__container .section3__container--grid {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .section .section__container .section__container--grid .section__container--polvo1, .section3 .section__container .section__container--grid .section__container--polvo1, .section3 .section3__container .section__container--grid .section__container--polvo1, .section3 .section3__container .section3__container--grid .section__container--polvo1, .section3 .section3__container .section3__container--grid .section3__container--polvo1 {
+    width: 100%;
+    margin-left: 35px;
+    margin-right: 35px;
+  }
+  .section .section__container .section__container--grid .section__container--polvo1 .section__container--porcentage, .section3 .section__container .section__container--grid .section__container--polvo1 .section__container--porcentage, .section3 .section3__container .section__container--grid .section__container--polvo1 .section__container--porcentage, .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--porcentage, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--porcentage, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage {
+    width: 75px;
+    height: 75px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    position: absolute;
+    margin: 15px;
+    border-radius: 50%;
+    background-color: #529F0F;
+  }
+  .section .section__container .section__container--grid .section__container--polvo1 .section__container--porcentage .section__container--valor, .section3 .section__container .section__container--grid .section__container--polvo1 .section__container--porcentage .section__container--valor, .section .section3 .section3__container .section__container--grid .section__container--polvo1 .section__container--porcentage .section__container--valor, .section3 .section .section3__container .section__container--grid .section__container--polvo1 .section__container--porcentage .section__container--valor, .section3 .section3__container .section__container--grid .section__container--polvo1 .section__container--porcentage .section__container--valor, .section .section__container .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--porcentage .section__container--valor, .section3 .section3__container .section .section__container .section3__container--grid .section__container--polvo1 .section__container--porcentage .section__container--valor, .section3 .section__container .section3__container .section3__container--grid .section__container--polvo1 .section__container--porcentage .section__container--valor, .section3 .section3__container .section__container .section3__container--grid .section__container--polvo1 .section__container--porcentage .section__container--valor, .section .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--porcentage .section__container--valor, .section3 .section .section3__container .section3__container--grid .section__container--polvo1 .section__container--porcentage .section__container--valor, .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--porcentage .section__container--valor, .section .section__container .section__container--grid .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--porcentage .section__container--valor, .section3 .section3__container .section3__container--grid .section .section__container .section__container--grid .section3__container--polvo1 .section__container--porcentage .section__container--valor, .section3 .section__container .section__container--grid .section3__container .section3__container--grid .section3__container--polvo1 .section__container--porcentage .section__container--valor, .section3 .section3__container .section3__container--grid .section__container .section__container--grid .section3__container--polvo1 .section__container--porcentage .section__container--valor, .section .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section__container--porcentage .section__container--valor, .section .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section__container--porcentage .section__container--valor, .section3 .section .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section__container--porcentage .section__container--valor, .section3 .section .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section__container--porcentage .section__container--valor, .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section__container--porcentage .section__container--valor, .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section__container--porcentage .section__container--valor, .section .section__container .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--porcentage .section__container--valor, .section3 .section3__container .section .section__container .section3__container--grid .section3__container--polvo1 .section__container--porcentage .section__container--valor, .section3 .section__container .section3__container .section3__container--grid .section3__container--polvo1 .section__container--porcentage .section__container--valor, .section3 .section3__container .section__container .section3__container--grid .section3__container--polvo1 .section__container--porcentage .section__container--valor, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--porcentage .section__container--valor, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section__container--porcentage .section__container--valor, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--porcentage .section__container--valor, .section .section__container .section__container--grid .section__container--polvo1 .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section .section__container .section__container--grid .section__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section__container .section__container--grid .section__container--polvo1 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container .section__container--grid .section__container--polvo1 .section3__container--porcentage .section__container--valor, .section .section3 .section3__container .section__container--grid .section__container--polvo1 .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--grid .section__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section .section3__container .section__container--grid .section__container--polvo1 .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section__container--grid .section__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section3__container .section__container--grid .section__container--polvo1 .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--grid .section__container--polvo1 .section3__container--porcentage .section__container--valor, .section .section__container .section3 .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section .section__container .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section3__container .section .section__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section3__container .section .section__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section__container .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section__container .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section3__container .section__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section3__container .section__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--porcentage .section__container--valor, .section .section3 .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--porcentage .section__container--valor, .section .section__container .section__container--grid .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section3__container .section3__container--grid .section .section__container .section__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section__container .section__container--grid .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section3__container .section3__container--grid .section__container .section__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section .section__container .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section3__container .section .section__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section__container .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section3__container .section__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--valor, .section .section__container .section__container--grid .section__container--polvo1 .section__container--porcentage .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section .section__container .section__container--grid .section__container--polvo1 .section__container--porcentage .section3__container--valor, .section3 .section__container .section__container--grid .section__container--polvo1 .section__container--porcentage .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container .section__container--grid .section__container--polvo1 .section__container--porcentage .section3__container--valor, .section .section3 .section3__container .section__container--grid .section__container--polvo1 .section__container--porcentage .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--grid .section__container--polvo1 .section__container--porcentage .section3__container--valor, .section3 .section .section3__container .section__container--grid .section__container--polvo1 .section__container--porcentage .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--grid .section__container--polvo1 .section__container--porcentage .section3__container--valor, .section3 .section3__container .section__container--grid .section__container--polvo1 .section__container--porcentage .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--grid .section__container--polvo1 .section__container--porcentage .section3__container--valor, .section .section__container .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--porcentage .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section .section__container .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--polvo1 .section__container--porcentage .section3__container--valor, .section3 .section3__container .section .section__container .section3__container--grid .section__container--polvo1 .section__container--porcentage .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section .section__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--polvo1 .section__container--porcentage .section3__container--valor, .section3 .section__container .section3__container .section3__container--grid .section__container--polvo1 .section__container--porcentage .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section__container .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--polvo1 .section__container--porcentage .section3__container--valor, .section3 .section3__container .section__container .section3__container--grid .section__container--polvo1 .section__container--porcentage .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--polvo1 .section__container--porcentage .section3__container--valor, .section .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--porcentage .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--polvo1 .section__container--porcentage .section3__container--valor, .section3 .section .section3__container .section3__container--grid .section__container--polvo1 .section__container--porcentage .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--polvo1 .section__container--porcentage .section3__container--valor, .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--porcentage .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--polvo1 .section__container--porcentage .section3__container--valor, .section .section__container .section__container--grid .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--porcentage .section3__container--porcentage .section3__container--valor, .section .section__container .section__container--grid .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--porcentage .section3__container--valor, .section3 .section3__container .section3__container--grid .section .section__container .section__container--grid .section3__container--polvo1 .section__container--porcentage .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section3__container--grid .section .section__container .section__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--porcentage .section3__container--valor, .section3 .section__container .section__container--grid .section3__container .section3__container--grid .section3__container--polvo1 .section__container--porcentage .section3__container--porcentage .section3__container--valor, .section3 .section__container .section__container--grid .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--porcentage .section3__container--valor, .section3 .section3__container .section3__container--grid .section__container .section__container--grid .section3__container--polvo1 .section__container--porcentage .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section3__container--grid .section__container .section__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--porcentage .section3__container--valor, .section .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section__container--porcentage .section3__container--porcentage .section3__container--valor, .section .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--porcentage .section3__container--valor, .section .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section__container--porcentage .section3__container--porcentage .section3__container--valor, .section .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--porcentage .section3__container--valor, .section3 .section .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section__container--porcentage .section3__container--porcentage .section3__container--valor, .section3 .section .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--porcentage .section3__container--valor, .section3 .section .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section__container--porcentage .section3__container--porcentage .section3__container--valor, .section3 .section .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--porcentage .section3__container--valor, .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section__container--porcentage .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--porcentage .section3__container--valor, .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section__container--porcentage .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--porcentage .section3__container--valor, .section .section__container .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--porcentage .section3__container--porcentage .section3__container--valor, .section .section__container .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--porcentage .section3__container--valor, .section3 .section3__container .section .section__container .section3__container--grid .section3__container--polvo1 .section__container--porcentage .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section .section__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--porcentage .section3__container--valor, .section3 .section__container .section3__container .section3__container--grid .section3__container--polvo1 .section__container--porcentage .section3__container--porcentage .section3__container--valor, .section3 .section__container .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--porcentage .section3__container--valor, .section3 .section3__container .section__container .section3__container--grid .section3__container--polvo1 .section__container--porcentage .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--porcentage .section3__container--valor, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--porcentage .section3__container--porcentage .section3__container--valor, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--porcentage .section3__container--valor, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section__container--porcentage .section3__container--porcentage .section3__container--valor, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--porcentage .section3__container--valor, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--porcentage .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section__container--porcentage .section3__container--valor, .section .section__container .section__container--grid .section__container--polvo1 .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section .section__container .section__container--grid .section__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section__container .section__container--grid .section__container--polvo1 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container .section__container--grid .section__container--polvo1 .section3__container--porcentage .section3__container--valor, .section .section3 .section3__container .section__container--grid .section__container--polvo1 .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--grid .section__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section .section3__container .section__container--grid .section__container--polvo1 .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section__container--grid .section__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section__container--grid .section__container--polvo1 .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--grid .section__container--polvo1 .section3__container--porcentage .section3__container--valor, .section .section__container .section3 .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section .section__container .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section .section__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section .section__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section__container .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section__container .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--porcentage .section3__container--valor, .section .section3 .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--porcentage .section3__container--valor, .section .section__container .section__container--grid .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section3__container--grid .section .section__container .section__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section__container .section__container--grid .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section3__container--grid .section__container .section__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section .section__container .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section .section__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section__container .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--porcentage .section3__container--valor {
+    font-family: "Lora", serif;
+    font-size: 20px;
+    color: white;
+  }
+  .section .section__container .section__container--grid .section__container--polvo1 .section__container--dust1, .section3 .section__container .section__container--grid .section__container--polvo1 .section__container--dust1, .section3 .section3__container .section__container--grid .section__container--polvo1 .section__container--dust1, .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--dust1, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--dust1 {
+    width: 86%;
+  }
+  .section .section__container .section__container--grid .section__container--polvo1 .section__container--subtitle, .section3 .section__container .section__container--grid .section__container--polvo1 .section__container--subtitle, .section3 .section3__container .section__container--grid .section__container--polvo1 .section__container--subtitle, .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--subtitle, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--subtitle, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--subtitle {
+    margin-top: 30px;
+    font-size: 25px;
+  }
+  .section .section__container .section__container--grid .section__container--polvo1 .section__container--sale, .section3 .section__container .section__container--grid .section__container--polvo1 .section__container--sale, .section3 .section3__container .section__container--grid .section__container--polvo1 .section__container--sale, .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--sale, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+  .section .section__container .section__container--grid .section__container--polvo1 .section__container--sale .section__container--dolar, .section3 .section__container .section__container--grid .section__container--polvo1 .section__container--sale .section__container--dolar, .section .section3 .section3__container .section__container--grid .section__container--polvo1 .section__container--sale .section__container--dolar, .section3 .section .section3__container .section__container--grid .section__container--polvo1 .section__container--sale .section__container--dolar, .section3 .section3__container .section__container--grid .section__container--polvo1 .section__container--sale .section__container--dolar, .section .section__container .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--sale .section__container--dolar, .section3 .section3__container .section .section__container .section3__container--grid .section__container--polvo1 .section__container--sale .section__container--dolar, .section3 .section__container .section3__container .section3__container--grid .section__container--polvo1 .section__container--sale .section__container--dolar, .section3 .section3__container .section__container .section3__container--grid .section__container--polvo1 .section__container--sale .section__container--dolar, .section .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--sale .section__container--dolar, .section3 .section .section3__container .section3__container--grid .section__container--polvo1 .section__container--sale .section__container--dolar, .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--sale .section__container--dolar, .section .section__container .section__container--grid .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--dolar, .section3 .section3__container .section3__container--grid .section .section__container .section__container--grid .section3__container--polvo1 .section__container--sale .section__container--dolar, .section3 .section__container .section__container--grid .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--dolar, .section3 .section3__container .section3__container--grid .section__container .section__container--grid .section3__container--polvo1 .section__container--sale .section__container--dolar, .section .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--dolar, .section .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section__container--sale .section__container--dolar, .section3 .section .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--dolar, .section3 .section .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section__container--sale .section__container--dolar, .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--dolar, .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section__container--sale .section__container--dolar, .section .section__container .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--dolar, .section3 .section3__container .section .section__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--dolar, .section3 .section__container .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--dolar, .section3 .section3__container .section__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--dolar, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--dolar, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--dolar, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--dolar, .section .section__container .section__container--grid .section__container--polvo1 .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section .section__container .section__container--grid .section__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section__container .section__container--grid .section__container--polvo1 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container .section__container--grid .section__container--polvo1 .section3__container--sale .section__container--dolar, .section .section3 .section3__container .section__container--grid .section__container--polvo1 .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--grid .section__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section .section3__container .section__container--grid .section__container--polvo1 .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section__container--grid .section__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section3__container .section__container--grid .section__container--polvo1 .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--grid .section__container--polvo1 .section3__container--sale .section__container--dolar, .section .section__container .section3 .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section .section__container .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section3__container .section .section__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section3__container .section .section__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section__container .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section__container .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section3__container .section__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section3__container .section__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section__container--dolar, .section .section3 .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section__container--dolar, .section .section__container .section__container--grid .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section3__container .section3__container--grid .section .section__container .section__container--grid .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section__container .section__container--grid .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section3__container .section3__container--grid .section__container .section__container--grid .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section .section__container .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section3__container .section .section__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section__container .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section3__container .section__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--dolar, .section .section__container .section__container--grid .section__container--polvo1 .section__container--sale .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section .section__container .section__container--grid .section__container--polvo1 .section__container--sale .section3__container--dolar, .section3 .section__container .section__container--grid .section__container--polvo1 .section__container--sale .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container .section__container--grid .section__container--polvo1 .section__container--sale .section3__container--dolar, .section .section3 .section3__container .section__container--grid .section__container--polvo1 .section__container--sale .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--grid .section__container--polvo1 .section__container--sale .section3__container--dolar, .section3 .section .section3__container .section__container--grid .section__container--polvo1 .section__container--sale .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--grid .section__container--polvo1 .section__container--sale .section3__container--dolar, .section3 .section3__container .section__container--grid .section__container--polvo1 .section__container--sale .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--grid .section__container--polvo1 .section__container--sale .section3__container--dolar, .section .section__container .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--sale .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section .section__container .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--polvo1 .section__container--sale .section3__container--dolar, .section3 .section3__container .section .section__container .section3__container--grid .section__container--polvo1 .section__container--sale .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section3__container .section .section__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--polvo1 .section__container--sale .section3__container--dolar, .section3 .section__container .section3__container .section3__container--grid .section__container--polvo1 .section__container--sale .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section__container .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--polvo1 .section__container--sale .section3__container--dolar, .section3 .section3__container .section__container .section3__container--grid .section__container--polvo1 .section__container--sale .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section3__container .section__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--polvo1 .section__container--sale .section3__container--dolar, .section .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--sale .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--polvo1 .section__container--sale .section3__container--dolar, .section3 .section .section3__container .section3__container--grid .section__container--polvo1 .section__container--sale .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--polvo1 .section__container--sale .section3__container--dolar, .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--sale .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--polvo1 .section__container--sale .section3__container--dolar, .section .section__container .section__container--grid .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--dolar, .section .section__container .section__container--grid .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--dolar, .section3 .section3__container .section3__container--grid .section .section__container .section__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--dolar, .section3 .section3__container .section3__container--grid .section .section__container .section__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--dolar, .section3 .section__container .section__container--grid .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--dolar, .section3 .section__container .section__container--grid .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--dolar, .section3 .section3__container .section3__container--grid .section__container .section__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--dolar, .section3 .section3__container .section3__container--grid .section__container .section__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--dolar, .section .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--dolar, .section .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--dolar, .section .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--dolar, .section .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--dolar, .section3 .section .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--dolar, .section3 .section .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--dolar, .section3 .section .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--dolar, .section3 .section .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--dolar, .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--dolar, .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--dolar, .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--dolar, .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--dolar, .section .section__container .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--dolar, .section .section__container .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--dolar, .section3 .section3__container .section .section__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--dolar, .section3 .section3__container .section .section__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--dolar, .section3 .section__container .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--dolar, .section3 .section__container .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--dolar, .section3 .section3__container .section__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--dolar, .section3 .section3__container .section__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--dolar, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--dolar, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--dolar, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--dolar, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--dolar, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--dolar, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--dolar, .section .section__container .section__container--grid .section__container--polvo1 .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section .section__container .section__container--grid .section__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section__container .section__container--grid .section__container--polvo1 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container .section__container--grid .section__container--polvo1 .section3__container--sale .section3__container--dolar, .section .section3 .section3__container .section__container--grid .section__container--polvo1 .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--grid .section__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section .section3__container .section__container--grid .section__container--polvo1 .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section__container--grid .section__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section3__container .section__container--grid .section__container--polvo1 .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--grid .section__container--polvo1 .section3__container--sale .section3__container--dolar, .section .section__container .section3 .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section .section__container .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section3__container .section .section__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section3__container .section .section__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section__container .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section__container .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section3__container .section__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section3__container .section__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section3__container--dolar, .section .section3 .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section3__container--dolar, .section .section__container .section__container--grid .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section3__container .section3__container--grid .section .section__container .section__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section__container .section__container--grid .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section3__container .section3__container--grid .section__container .section__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section .section__container .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section3__container .section .section__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section__container .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section3__container .section__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--dolar {
+    font-size: 20px;
+  }
+  .section .section__container .section__container--grid .section__container--polvo1 .section__container--sale .section__container--descuento, .section3 .section__container .section__container--grid .section__container--polvo1 .section__container--sale .section__container--descuento, .section .section3 .section3__container .section__container--grid .section__container--polvo1 .section__container--sale .section__container--descuento, .section3 .section .section3__container .section__container--grid .section__container--polvo1 .section__container--sale .section__container--descuento, .section3 .section3__container .section__container--grid .section__container--polvo1 .section__container--sale .section__container--descuento, .section .section__container .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--sale .section__container--descuento, .section3 .section3__container .section .section__container .section3__container--grid .section__container--polvo1 .section__container--sale .section__container--descuento, .section3 .section__container .section3__container .section3__container--grid .section__container--polvo1 .section__container--sale .section__container--descuento, .section3 .section3__container .section__container .section3__container--grid .section__container--polvo1 .section__container--sale .section__container--descuento, .section .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--sale .section__container--descuento, .section3 .section .section3__container .section3__container--grid .section__container--polvo1 .section__container--sale .section__container--descuento, .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--sale .section__container--descuento, .section .section__container .section__container--grid .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--descuento, .section3 .section3__container .section3__container--grid .section .section__container .section__container--grid .section3__container--polvo1 .section__container--sale .section__container--descuento, .section3 .section__container .section__container--grid .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--descuento, .section3 .section3__container .section3__container--grid .section__container .section__container--grid .section3__container--polvo1 .section__container--sale .section__container--descuento, .section .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--descuento, .section .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section__container--sale .section__container--descuento, .section3 .section .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--descuento, .section3 .section .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section__container--sale .section__container--descuento, .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--descuento, .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section__container--sale .section__container--descuento, .section .section__container .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--descuento, .section3 .section3__container .section .section__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--descuento, .section3 .section__container .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--descuento, .section3 .section3__container .section__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--descuento, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--descuento, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--descuento, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section__container--descuento, .section .section__container .section__container--grid .section__container--polvo1 .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section .section__container .section__container--grid .section__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section__container .section__container--grid .section__container--polvo1 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container .section__container--grid .section__container--polvo1 .section3__container--sale .section__container--descuento, .section .section3 .section3__container .section__container--grid .section__container--polvo1 .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--grid .section__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section .section3__container .section__container--grid .section__container--polvo1 .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section__container--grid .section__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section3__container .section__container--grid .section__container--polvo1 .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--grid .section__container--polvo1 .section3__container--sale .section__container--descuento, .section .section__container .section3 .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section .section__container .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section3__container .section .section__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section3__container .section .section__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section__container .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section__container .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section3__container .section__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section3__container .section__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section__container--descuento, .section .section3 .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section__container--descuento, .section .section__container .section__container--grid .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section3__container .section3__container--grid .section .section__container .section__container--grid .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section__container .section__container--grid .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section3__container .section3__container--grid .section__container .section__container--grid .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section .section__container .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section3__container .section .section__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section__container .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section3__container .section__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--descuento, .section .section__container .section__container--grid .section__container--polvo1 .section__container--sale .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section .section__container .section__container--grid .section__container--polvo1 .section__container--sale .section3__container--descuento, .section3 .section__container .section__container--grid .section__container--polvo1 .section__container--sale .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container .section__container--grid .section__container--polvo1 .section__container--sale .section3__container--descuento, .section .section3 .section3__container .section__container--grid .section__container--polvo1 .section__container--sale .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--grid .section__container--polvo1 .section__container--sale .section3__container--descuento, .section3 .section .section3__container .section__container--grid .section__container--polvo1 .section__container--sale .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--grid .section__container--polvo1 .section__container--sale .section3__container--descuento, .section3 .section3__container .section__container--grid .section__container--polvo1 .section__container--sale .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--grid .section__container--polvo1 .section__container--sale .section3__container--descuento, .section .section__container .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--sale .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section .section__container .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--polvo1 .section__container--sale .section3__container--descuento, .section3 .section3__container .section .section__container .section3__container--grid .section__container--polvo1 .section__container--sale .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section3__container .section .section__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--polvo1 .section__container--sale .section3__container--descuento, .section3 .section__container .section3__container .section3__container--grid .section__container--polvo1 .section__container--sale .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section__container .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--polvo1 .section__container--sale .section3__container--descuento, .section3 .section3__container .section__container .section3__container--grid .section__container--polvo1 .section__container--sale .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section3__container .section__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--polvo1 .section__container--sale .section3__container--descuento, .section .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--sale .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--polvo1 .section__container--sale .section3__container--descuento, .section3 .section .section3__container .section3__container--grid .section__container--polvo1 .section__container--sale .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--polvo1 .section__container--sale .section3__container--descuento, .section3 .section3__container .section3__container--grid .section__container--polvo1 .section__container--sale .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--polvo1 .section__container--sale .section3__container--descuento, .section .section__container .section__container--grid .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--descuento, .section .section__container .section__container--grid .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--descuento, .section3 .section3__container .section3__container--grid .section .section__container .section__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--descuento, .section3 .section3__container .section3__container--grid .section .section__container .section__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--descuento, .section3 .section__container .section__container--grid .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--descuento, .section3 .section__container .section__container--grid .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--descuento, .section3 .section3__container .section3__container--grid .section__container .section__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--descuento, .section3 .section3__container .section3__container--grid .section__container .section__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--descuento, .section .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--descuento, .section .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--descuento, .section .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--descuento, .section .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--descuento, .section3 .section .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--descuento, .section3 .section .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--descuento, .section3 .section .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--descuento, .section3 .section .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--descuento, .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--descuento, .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--descuento, .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--descuento, .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--descuento, .section .section__container .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--descuento, .section .section__container .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--descuento, .section3 .section3__container .section .section__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--descuento, .section3 .section3__container .section .section__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--descuento, .section3 .section__container .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--descuento, .section3 .section__container .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--descuento, .section3 .section3__container .section__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--descuento, .section3 .section3__container .section__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--descuento, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--descuento, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--descuento, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--descuento, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--descuento, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--sale .section3__container--sale .section3__container--descuento, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section__container--sale .section3__container--descuento, .section .section__container .section__container--grid .section__container--polvo1 .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section .section__container .section__container--grid .section__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section__container .section__container--grid .section__container--polvo1 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container .section__container--grid .section__container--polvo1 .section3__container--sale .section3__container--descuento, .section .section3 .section3__container .section__container--grid .section__container--polvo1 .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--grid .section__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section .section3__container .section__container--grid .section__container--polvo1 .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section__container--grid .section__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section3__container .section__container--grid .section__container--polvo1 .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--grid .section__container--polvo1 .section3__container--sale .section3__container--descuento, .section .section__container .section3 .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section .section__container .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section3__container .section .section__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section3__container .section .section__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section__container .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section__container .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section3__container .section__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section3__container .section__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section3__container--descuento, .section .section3 .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section3__container .section3__container--grid .section__container--polvo1 .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section__container--polvo1 .section3__container--sale .section3__container--descuento, .section .section__container .section__container--grid .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section3__container .section3__container--grid .section .section__container .section__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section__container .section__container--grid .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section3__container .section3__container--grid .section__container .section__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section3__container .section__container--grid .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section3__container .section3__container--grid .section__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section .section__container .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section3__container .section .section__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section__container .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section3__container .section__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento, .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--sale .section3__container--descuento {
+    font-size: 20px;
+  }
+
+  .section2 {
+    width: 100%;
+    margin: 50px 0;
+  }
+  .section2 .section2__container {
+    width: 100%;
+    margin: 0 20px;
+  }
+  .section2 .section2__container .section2__container--img {
+    width: 100%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-bottom: 20px;
+  }
+  .section2 .section2__container .section2__container--img .section2__container--mata {
+    width: 20%;
+  }
+  .section2 .section2__container .section2__container--parrafo {
+    width: 74%;
+    font-size: 30px;
+  }
+  .section2 .section2__container .section2__container--parrafo .section2__container--p {
+    font-family: "Lora", serif;
+    color: #575757;
+  }
+  .section2 .section2__container .section2__container--autor {
+    margin-bottom: 5px;
+  }
+  .section2 .section2__container .section2__container--autor .section2__container--name {
+    font-family: "Work Sans", sans-serif;
+    font-size: 20px;
+  }
+  .section2 .section2__container .section2__container--customer .section2__container--marca {
+    font-family: "Work Sans", sans-serif;
+    font-size: 15px;
+  }
+
+  .section3 .section3__container {
+    margin: 0 20px;
+  }
+  .section3 .section3__container .section3__container--grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    row-gap: 40px;
+  }
+  .section3 .section3__container .section3__container--grid .section3__container--polvo1 .section3__container--dust1 {
+    width: 87%;
+  }
+  .section4 .section4__container {
+    margin: 0 20px;
+  }
+  .section4 .section4__container .section4__container--title .section4__container--h {
+    font-size: 38px;
+  }
+  .section4 .section4__container .section4__container--input {
+    width: 76%;
+  }
+  .section4 .section4__container .section4__container--input input {
+    padding: 32px;
+  }
+  .section4 .section4__container .section4__container--input button {
+    padding: 30px;
+  }
+  .section4 .section4__container .section4__container--input ::-webkit-input-placeholder {
+    font-size: 20px;
+    font-family: "Work Sans", sans-serif;
+  }
+  .section4 .section4__container .section4__container--input ::-moz-placeholder {
+    font-size: 20px;
+    font-family: "Work Sans", sans-serif;
+  }
+  .section4 .section4__container .section4__container--input :-ms-input-placeholder {
+    font-size: 20px;
+    font-family: "Work Sans", sans-serif;
+  }
+  .section4 .section4__container .section4__container--input ::-ms-input-placeholder {
+    font-size: 20px;
+    font-family: "Work Sans", sans-serif;
+  }
+  .section4 .section4__container .section4__container--input ::placeholder {
+    font-size: 20px;
+    font-family: "Work Sans", sans-serif;
+  }
+
+  .section5 .section5__container {
+    margin: 0 20px;
+  }
+  .section5 .section5__container .section5__container--items {
+    display: -ms-grid;
+    display: grid;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-grid-columns: 347px;
+    grid-template-columns: 347px;
+    -ms-grid-rows: 2fr;
+    grid-template-rows: 2fr;
+    -webkit-column-gap: 25px;
+       -moz-column-gap: 25px;
+            column-gap: 25px;
+    row-gap: 40px;
+    padding: 100px;
+    background-image: url(../Imagenes/bg-1.jpg);
+  }
+  .section5 .section5__container .section5__container--items > *:nth-child(1) {
+    -ms-grid-row: 1;
+    -ms-grid-column: 1;
+  }
+  .section5 .section5__container .section5__container--items .section5__container--title {
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .section5 .section5__container .section5__container--items .section5__container--title .section5__container--h2 {
+    font-size: 35px;
+  }
+  .section5 .section5__container .section5__container--items .section5__container--mini-items, .section5 .section5__container .section5__container--items .section5__container--mini-items2, .section5 .section5__container .section5__container--items .section5__container--mini-items3 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .section5 .section5__container .section5__container--items .section5__container--mini-items .section5__container--img, .section5 .section5__container .section5__container--items .section5__container--mini-items2 .section5__container--img, .section5 .section5__container .section5__container--items .section5__container--mini-items3 .section5__container--img {
+    margin-bottom: 20px;
+  }
+  .section5 .section5__container .section5__container--items .section5__container--mini-items .section5__container--img .section5__container--imagen, .section5 .section5__container .section5__container--items .section5__container--mini-items2 .section5__container--img .section5__container--imagen, .section5 .section5__container .section5__container--items .section5__container--mini-items3 .section5__container--img .section5__container--imagen {
+    -o-object-fit: contain;
+       object-fit: contain;
+  }
+  .section5 .section5__container .section5__container--items .section5__container--mini-items .section5__container--p, .section5 .section5__container .section5__container--items .section5__container--mini-items2 .section5__container--p, .section5 .section5__container .section5__container--items .section5__container--mini-items3 .section5__container--p {
+    margin-bottom: 20px;
+  }
+  .section5 .section5__container .section5__container--items .section5__container--mini-items .section5__container--p .section5__container--fecha, .section5 .section5__container .section5__container--items .section5__container--mini-items2 .section5__container--p .section5__container--fecha, .section5 .section5__container .section5__container--items .section5__container--mini-items3 .section5__container--p .section5__container--fecha {
+    font-size: 20px;
+  }
+  .section5 .section5__container .section5__container--items .section5__container--mini-items .section5__container--subtitle, .section5 .section5__container .section5__container--items .section5__container--mini-items2 .section5__container--subtitle, .section5 .section5__container .section5__container--items .section5__container--mini-items3 .section5__container--subtitle {
+    margin-bottom: 20px;
+  }
+  .section5 .section5__container .section5__container--items .section5__container--mini-items .section5__container--subtitle h3, .section5 .section5__container .section5__container--items .section5__container--mini-items2 .section5__container--subtitle h3, .section5 .section5__container .section5__container--items .section5__container--mini-items3 .section5__container--subtitle h3 {
+    font-family: "Playfair Display", serif;
+    font-size: 25px;
+  }
+  .section5 .section5__container .section5__container--items .section5__container--mini-items .section5__container--texto .section5__container--parrafo, .section5 .section5__container .section5__container--items .section5__container--mini-items2 .section5__container--texto .section5__container--parrafo, .section5 .section5__container .section5__container--items .section5__container--mini-items3 .section5__container--texto .section5__container--parrafo {
+    font-size: 20px;
+  }
+  .section5 .section5__container .section5__container--items .section5__container--mini-items .section5__container--a .section5__container--enlace, .section5 .section5__container .section5__container--items .section5__container--mini-items2 .section5__container--a .section5__container--enlace, .section5 .section5__container .section5__container--items .section5__container--mini-items3 .section5__container--a .section5__container--enlace {
+    font-size: 20px;
+  }
+  .section5 .section5__container .section5__container--items .section5__container--mini-items2 {
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+  .section5 .section5__container .section5__container--items .section5__container--mini-items3 {
+    -ms-grid-column: 1;
+    grid-column: 1;
+  }
+
+  .footer .footer__container .footer__container--logos {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer .footer__container .footer__container--logos img {
+    margin-bottom: 50px;
+  }
+  .footer .footer__container .footer__container--list {
+    -ms-grid-columns: 275px;
+    grid-template-columns: 275px;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer .footer__container .footer__container--list .footer__container--account, .footer .footer__container .footer__container--list .footer__container--information, .footer .footer__container .footer__container--list .footer__container--quick, .footer .footer__container .footer__container--list .footer__container--contact {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer .footer__container .footer__container--list .footer__container--account h2, .footer .footer__container .footer__container--list .footer__container--information h2, .footer .footer__container .footer__container--list .footer__container--quick h2, .footer .footer__container .footer__container--list .footer__container--contact h2 {
+    margin-bottom: 15px;
+    font-family: "Playfair Display", serif;
+    font-size: 18px;
+  }
+  .footer .footer__container .footer__container--list .footer__container--account a, .footer .footer__container .footer__container--list .footer__container--information a, .footer .footer__container .footer__container--list .footer__container--quick a, .footer .footer__container .footer__container--list .footer__container--contact a {
+    margin-bottom: 10px;
+    font-family: "Playfair Display", serif;
+    font-size: 14px;
+    color: #575757;
+    text-decoration: none;
+  }
+  .footer .footer__container .footer__container--list .footer__container--contact .footer__container--diferente {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    margin: 10px 0;
+  }
+  .footer .footer__container .footer__container--items {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 20px;
+    padding: 20px;
+    background-color: #ebebeb;
+  }
+  .footer .footer__container .footer__container--items .footer__container--pagos {
+    width: 62%;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  .footer .footer__container .footer__container--items .footer__container--pagos .footer__container--reconocimientos {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .footer .footer__container .footer__container--items .footer__container--pagos .footer__container--reconocimientos img {
+    width: 5%;
+    margin-right: 5px;
+  }
+  .footer .footer__container .footer__container--items .footer__container--pagos .footer__container--reconocimientos p {
+    width: 55%;
+  }
+}

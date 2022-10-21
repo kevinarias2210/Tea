@@ -1,0 +1,67 @@
+.section{
+    width: 100%;
+    .section__container{
+        padding: 50px 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        margin: 0 40px;
+        background-image: url(../Imagenes/bg-1.jpg);
+        .section__container--text{
+            height: 15vh;
+            display: flex;
+            align-items: center;
+            flex-direction: column;
+            text-align: center;
+            h2{
+                margin-bottom: 15px;
+                font-family: $fuente-texto;
+                font-size: 30px;
+            }
+            p{
+                width: 75%;
+                font-family: $fuente-texto;
+            }
+        }
+        .section__container--grid{
+            display: flex;
+            .section__container--polvo1{
+                margin-right: 35px;
+                .section__container--porcentage{
+                    width: 40px;
+                    height: 40px;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    position: absolute;
+                    margin: 15px;
+                    border-radius: 50%;
+                    background-color: $color-venta;
+                    .section__container--valor{
+                        font-family: $fuente-texto;
+                        font-size: 12px;
+                        color: white;
+                    }
+                }
+                .section__container--subtitle{
+                    margin-top: 10px;
+                    font-family: $fuente-productos;
+                    color: $color-venta-p;
+                }
+                .section__container--sale{
+                    display: flex;
+                    margin-top: 10px;
+                    .section__container--dolar{
+                        margin-right: 10px;
+                        font-family: $fuente-productos;
+                    }
+                    .section__container--descuento{
+                        text-decoration: line-through;
+                        color: $color-venta-p;
+                    }
+                }
+            }
+        }
+    }
+}

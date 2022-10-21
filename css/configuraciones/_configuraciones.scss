@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: content-box;
+}
+
+$fuente-titulo: 'Playfair Display', serif;
+$fuente-texto: 'Lora', serif;
+$fuente-productos: 'Work Sans', sans-serif;
+$color-venta: #529F0F;
+$color-venta-p:  #575757;
+$color-negro: #333333;
+$color-oscuro: black;
+$color-blanco: white;
+
+@import "configuraciones/_pantallas.scss";

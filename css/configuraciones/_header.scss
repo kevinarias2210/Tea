@@ -1,0 +1,59 @@
+.header{
+    width: 100%;
+    .header__container{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin: 20px 40px;
+        .header__container--menu{
+            display: flex;
+            align-items: center;
+            .header__container--ul{
+                width: 100%;
+                display: flex;
+                justify-content: space-between;
+                list-style: none;
+                .header__container--li{
+                    .header__container--a{
+                        font-family: $fuente-productos;
+                        text-decoration: none;
+                        list-style: none;
+                        color: $color-negro;
+                    }
+                }
+            }
+        }
+        .header__container--img{
+            display: flex;
+            justify-content: center;
+        }
+        .header__container--menuH{
+            display: none;
+            .header__container--imgM{
+                width: 6%;
+            }
+        }
+        .header__container--dolar{
+            display: flex;
+            justify-content: flex-end;
+            .header__container--items{
+                display: flex;
+                align-items: center;
+                p{
+                    font-family: $fuente-productos;
+                }
+                .header__container--flechita{
+                    width: 10%;
+                    height: 40%;
+                    margin-top: 3px;
+                    margin-left: 10px;
+                }
+                .header__container--carrito{
+                    .header__container--car{
+                        width: 22%;
+                        margin-left: 20px;
+                    }
+                }
+            }
+        }
+    }
+}

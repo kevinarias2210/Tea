@@ -1,0 +1,36 @@
+.section3{
+    @extend .section;
+    .section3__container{
+        @extend .section__container;
+        .section3__container--text{
+            @extend .section__container--text;
+        }
+        .section3__container--grid{
+            display: grid;
+            grid-template-columns: 1fr;
+            row-gap: 40px;
+            @extend .section__container--grid;
+            .section3__container--polvo1{
+                @extend .section__container--polvo1;
+                .section3__container--porcentage{
+                    @extend .section__container--porcentage;
+                    .section3__container--valor{
+                        @extend .section__container--valor;
+                    }
+                }
+                .section3__container--subtitle{
+                    @extend .section__container--subtitle;
+                }
+                .section3__container--sale{
+                    @extend .section__container--sale;
+                    .section3__container--dolar{
+                        @extend .section__container--dolar;
+                    }
+                    .section3__container--descuento{
+                        @extend .section__container--descuento;
+                    }
+                }
+            }
+        }
+    }
+}

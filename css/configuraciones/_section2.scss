@@ -1,0 +1,35 @@
+.section2{
+    width: 100%;
+    margin: 50px 0;
+    .section2__container{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        .section2__container--img{
+            margin-bottom: 20px;
+        }
+        .section2__container--parrafo{
+            width: 25%;
+            margin-bottom: 30px;
+            text-align: center;
+            .section2__container--p{
+                font-family: $fuente-texto;
+                color: $color-venta-p;
+            }
+        }
+        .section2__container--autor{
+            margin-bottom: 5px;
+            .section2__container--name{
+                font-family: $fuente-productos;
+                font-size: 10px;
+            }
+        }
+        .section2__container--customer{
+            .section2__container--marca{
+                font-family: $fuente-productos;
+                font-size: 9px;
+            }
+        }
+    }
+}

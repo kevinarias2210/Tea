@@ -1,0 +1,81 @@
+.footer{
+    width: 100%;
+    .footer__container{
+        .footer__container--logos{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 50px;
+            img{
+                margin-right: 50px;
+            }
+        }
+        .footer__container--list{
+            display: grid;
+            grid-template-columns: repeat(4, 275px);
+            justify-content: center;
+            padding: 50px;
+            background-color: #f8f8f8;
+            .footer__container--account{
+                display: flex;
+                align-items: flex-start;
+                justify-content: center;
+                flex-direction: column;
+                h2{
+                    margin-bottom: 15px;
+                    font-family: $fuente-titulo;
+                    font-size: 18px;
+                }
+                a{
+                    margin-bottom: 10px;
+                    font-family: $fuente-titulo;
+                    font-size: 14px;
+                    color: $color-venta-p;
+                    text-decoration: none;
+                }
+            }
+            .footer__container--information{
+                @extend .footer__container--account;
+            }
+            .footer__container--quick{
+                @extend .footer__container--account;
+            }
+            .footer__container--contact{
+                .footer__container--diferente{
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: column;
+                    margin: 10px 0;
+                }
+                @extend .footer__container--account;
+            }
+        }
+        .footer__container--items{
+            display: flex;
+            justify-content: center;
+            margin: 0 40px;
+            padding: 20px;
+            background-color: #ebebeb;
+            .footer__container--pagos{
+                width: 62%;
+                display: flex;
+                justify-content: space-between;
+                .footer__container--reconocimientos{
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    img{
+                        width: 5%;
+                        margin-right: 5px;
+                    }
+                    p{
+                        margin-right: 5px;
+                        font-family: $fuente-texto;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@include small;

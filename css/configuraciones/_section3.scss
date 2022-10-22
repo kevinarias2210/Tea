@@ -3,11 +3,12 @@
     .section3__container{
         @extend .section__container;
         .section3__container--text{
+            padding: 40px;
             @extend .section__container--text;
         }
         .section3__container--grid{
             display: grid;
-            grid-template-columns: 1fr;
+            grid-template-columns: repeat(4, 1fr);
             row-gap: 40px;
             @extend .section__container--grid;
             .section3__container--polvo1{

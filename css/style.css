@@ -312,11 +312,14 @@
   font-size: 9px;
 }
 
+.section3 .section3__container .section3__container--text {
+  padding: 40px;
+}
 .section3 .section3__container .section3__container--grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr;
-  grid-template-columns: 1fr;
+  -ms-grid-columns: (1fr)[4];
+  grid-template-columns: repeat(4, 1fr);
   row-gap: 40px;
 }
 .section4 {
